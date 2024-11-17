@@ -32,19 +32,26 @@ ul li a{
 .logo{
     font-size: 22px;
 }
+
 .main{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    background-color: rgb(0, 109, 122);
     padding: 33px;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
 }
 .main img{
-    width: 710px;
+    width: 610px;
+    height:500px;
+    padding-left: 15px;
 }
 .mainText{
-    margin-top: 44px;
-    color: white;
+    margin-top: 90px;
+    color: black;
 }
 .mainText h1{
     font-size: 66px;
